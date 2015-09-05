@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Subimos un ficherito solo</title>
+</head>
+<body>
+ 	<h3>Subir un fichero con un nombre que le demos</h3>
+    <form action="../subirUnFichero" enctype="multipart/form-data" method="post"> <!-- enctype para los archivos  -->
+        Fichero: <input type="file" name="file"/><br />
+        Dale un Nombre (con extensión): <input type="text" name="name"> <br />
+    
+        <input type="submit" value="Súbelo"> Dale caña!
+    </form>
+    <br />
+    <br />
+    <h3>Subir un fichero</h3>
+    <form action="../subirUnFicheroSinNombre" enctype="multipart/form-data" method="post"> <!-- enctype para los archivos  -->
+        Fichero: <input type="file" name="file"/><br />
+        <input type="submit" value="Súbelo"> Dale caña!
+    </form>
+    <br />
+    <br /> 
+    <h3>Subir varios ficheros</h3>
+    <form action="../subirMultiplesFicheros" enctype="multipart/form-data" method="post"> <!-- enctype para los archivos  -->
+        Ficheros: <input type="file" name="files" multiple/><br />
+        <input type="submit" value="Súbelos"> Dale caña!
+    </form> 
+     
+</body>
+</html>

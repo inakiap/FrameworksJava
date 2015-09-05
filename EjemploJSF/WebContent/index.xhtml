@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html">
+ 
+    <h:head>
+    <meta charset="utf-8"></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="res/css/bootstrap.min.css"></link>
+	<link href="res/css/style.css" rel="stylesheet"></link>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="res/js/bootstrap.min.js"></script>
+    
+        <title>Java Server Faces 2.2</title>
+    </h:head>
+    <h:body>
+        <div class="container">
+	      <div class="header clearfix">
+	        <nav>
+	          <ul class="nav nav-pills pull-right">
+	            <li role="presentation" class="active"><a href="#" >Inicio</a></li>
+	            
+	          </ul>
+	        </nav>
+	        <h3 class="text-muted">JSF 2.2</h3>
+	      </div>
+
+		</div>
+      	<div class="container">
+     		<div class="jumbotron">
+    			<h1>Bienvenido</h1>
+    		</div>
+    	</div>
+    	<div class="container">
+    		<h3>Ejemplo básico</h3>
+    		<p>Aquí solo pasamos el nombre</p>
+	    	<h:form>
+	    	   <h:inputText value="#{holaMundo.nombre}"></h:inputText>
+	    	   <h:commandButton value="Welcome Me" action="wellcome"></h:commandButton>
+	    	</h:form>
+    	</div>
+    	<br></br>
+    	<div class="container">
+    		<h3>Más ejemplos</h3>
+	    	<div class="btn-group btn-group-justified" role="group" aria-label="menu">
+	 		 <div class="btn-group" role="group">
+	   			 <a href="departamentos.xhtml" class="btn btn-lg btn-primary" role="button">En una sola vista</a>
+	  		</div>
+	  		<div class="btn-group" role="group">
+	   			 <a href="listardepartamentosget2.xhtml" class="btn btn-lg btn-primary" role="button">En dos vistas</a>
+	  		</div>
+	  		<div class="btn-group" role="group">
+	   			 <a href="empleado.xhtml" class="btn btn-lg btn-primary" role="button">Empleado</a>
+	  		</div>
+	  	</div>
+	</div>
+    	<div class="container" >
+	    	<footer class="footer">
+		        <p>Página web realizada por <a href="http://codigonatura.com" target="_blank"><img src="http://codigonatura.com/wp-content/uploads/2014/10/cn-logo1-e1413870836327.png" width="100px" style="vertical-align:middle;"></img></a></p>
+		    </footer>
+    	</div>
+    </h:body>
+</html>
