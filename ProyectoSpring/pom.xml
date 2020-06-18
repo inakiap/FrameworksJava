@@ -10,7 +10,7 @@
 		</repository>
 	</repositories>
 	<properties>
-		<versionSpring>4.2.0.RELEASE</versionSpring>
+		<versionSpring>5.2.7.RELEASE</versionSpring>
 	</properties>
 	<groupId>org.springframework</groupId>
 	<artifactId>gs-serving-web-content</artifactId>
